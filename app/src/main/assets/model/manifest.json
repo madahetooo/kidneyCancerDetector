@@ -1,0 +1,19 @@
+{
+    "modelFile": "model.tflite",
+    "labelsFile": "dict.txt",
+    "modelType": "IMAGE_LABELING",
+    "batchSize": 1,
+    "imageChannels": 3,
+    "imageHeight": 224,
+    "imageWidth": 224,
+    "inferenceType": "QUANTIZED_UINT8",
+    "inputTensor": "image",
+    "inputType": "QUANTIZED_UINT8",
+    "outputTensor": "scores",
+    "supportedTfVersions": [
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13"
+    ]
+}
